@@ -28,7 +28,7 @@ app.post("/signup", async (req, res) => {
     };
 
     await collection.insertMany([data]); //creates a data???
-    res.render("home"); //redirect to home page
+    res.render("login"); //redirect to login page
   } catch (error) {
     console.error("Error during signup:", error);
     res.status(500).send("unknown error");
