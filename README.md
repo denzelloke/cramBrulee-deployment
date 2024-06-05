@@ -1,5 +1,9 @@
 # crambrulee
 
+## Documentation
+ 
+https://docs.google.com/document/d/1NJYrrDUmPWrZGAuYLO0DFdPRINOexmdeYmMg_YjxGRM/edit?usp=drive_link
+
 ## Description
 
 This app is intended to be a calendar app that intuitively helps you plan your tasks based on your calendar availability and task urgency.
