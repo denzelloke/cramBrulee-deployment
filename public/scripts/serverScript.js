@@ -1,3 +1,5 @@
+//SERVER SCRIPT
+
 //database collection to connect to node.js
 
 const mongoose=require("mongoose")
