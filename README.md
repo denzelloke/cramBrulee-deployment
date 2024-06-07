@@ -1,5 +1,9 @@
 # crambrulee
 
+## Documentation
+ 
+https://docs.google.com/document/d/1NJYrrDUmPWrZGAuYLO0DFdPRINOexmdeYmMg_YjxGRM/edit?usp=drive_link
+
 ## Description
 
 This app is intended to be a calendar app that intuitively helps you plan your tasks based on your calendar availability and task urgency.
@@ -7,7 +11,9 @@ So far, we have successfully created a Home Page, a Login form, and a Signup for
 We use MongoDB as a database to store information required for user authentication.
 
 Level of Achievement: Project Gemini
+
 Project Scope: To create a Web App that displays Users' personalised calendars, and intuitively suggests timeslots for User to begin working on new tasks, based on factors like task urgency and calendar availability.
+
 Milestone 1 (ideation): Each user must have their own personalised calendar. This calendar must not be accessible by anyone else but the user. As such, it is necessary to build a secure login in and signup process that allows Users to safely store their information.
 
 ## Prerequisites
