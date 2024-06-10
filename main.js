@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const hbs = require("hbs");
-const collection = require("./public/scripts/serverScript"); //tells code where to find "serverScript"
+const collection = require("./server/serverScript"); //tells code where to find "serverScript"
 
 const templatePath = path.join(__dirname, "./public/templates"); //tells code where to find "templates"
 app.use(express.static(path.join(__dirname, "public")));
