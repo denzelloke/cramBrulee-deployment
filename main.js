@@ -2,15 +2,14 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const hbs = require("hbs");
-//const collection = require("C:/Users/Denzel/Desktop/orbital/crambrulee/public/scripts/serverScript");
-const collection = require("./public/scripts/serverScript");
+const collection = require("./public/scripts/serverScript"); //tells code where to find "serverScript"
 
-const templatePath = path.join(__dirname, "./public/templates"); //tells code that the views folder is called "templates"
+const templatePath = path.join(__dirname, "./public/templates"); //tells code where to find "templates"
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use(express.json());
 app.set("view engine", "hbs");
-app.set("views", templatePath); //tells code that the views folder is called "templates"
+app.set("views", templatePath); 
 app.use(express.urlencoded({ extended: false }));
 
 app.get("/", (req, res) => {
